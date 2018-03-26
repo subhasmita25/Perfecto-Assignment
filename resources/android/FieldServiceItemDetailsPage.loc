@@ -1,0 +1,4 @@
+itemdetailspage.label.itemtitle = {\"locator\":\"xpath=//*[@resource-id=\\\"com.infostretch.sourceapp:id/detail_tv_title\\\"]\",\"desc\":\"item title on iteldetails page\"}
+itemdetailspage.label.itemcategory = {\"locator\":\"xpath=//*[@resource-id=\\\"com.infostretch.sourceapp:id/detail_tv_category\\\"]\",\"desc\":\"item category on iteldetails page\"}
+itemdetailspage.textbox.note = {\"locator\":\"xpath=//*[@resource-id=\\\"com.infostretch.sourceapp:id/detail_et_note\\\"]\",\"desc\":\"note on item details page\"}
+itemdetailspage.button.back = {\"locator\":\"xpath=//android.widget.ImageButton[@content-desc='Navigate up']\",\"desc\":\"back button locator\"}

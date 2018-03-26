@@ -1,0 +1,4 @@
+loginpage.textbox.username = {\"locator\":\"xpath=//XCUIElementTypeTextField\",\"desc\":\"username locator\"}
+loginpage.textbox.password = {\"locator\":\"xpath=//XCUIElementTypeSecureTextField\",\"desc\":\"password locator\"}
+loginpage.button.signin = {\"locator\":\"xpath=//XCUIElementTypeButton[@name='Submit']\",\"desc\":\"submit button locator\"}
+loginpage.button.ok = {\"locator\":\"xpath=//*[@label=\\\"OK\\\"]\",\"desc\":\"ok pop up\"}

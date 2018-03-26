@@ -1,0 +1,127 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user is already loggedin logout first",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And login again with valid username 'test@test.com' and password 'test'",
+      "args": [
+        "[test@test.com, test]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user clicks on allow pop up",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verifies the home page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user has to verify the map in home page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user should logout from the application",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user launches the Fieldservice app",
+      "type": "TestStepFail",
+      "duration": 23687,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\njava.lang.reflect.InvocationTargetException\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user is already loggedin logout first",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And login again with valid username 'test@test.com' and password 'test'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user clicks on allow pop up",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies the home page",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user has to verify the map in home page",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user should logout from the application",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\njava.lang.reflect.InvocationTargetException\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: driver.version: unknown\r\n\tat .Given user launches the Fieldservice app(scenarios/suite1.bdd:6)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:265)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)\r\n\tat com.perfectofieldserviceassignment.pages.FieldserviceloginTestPage.<init>(FieldserviceloginTestPage.java:16)\r\n\tat java.lang.Class.newInstance(Class.java:442)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

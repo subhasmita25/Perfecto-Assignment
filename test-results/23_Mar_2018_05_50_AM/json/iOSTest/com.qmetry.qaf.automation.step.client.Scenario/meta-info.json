@@ -1,0 +1,45 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "First Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3.0,
+        "name": "SampleTest",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1521784222055,
+      "duration": 23939,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Second Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 16,
+        "name": "SampleTest",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "SampleTestRQoiUXINwe",
+        "sign": "scenarios.suite1.bdd.SampleTest()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1521784246025,
+      "duration": 22152,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

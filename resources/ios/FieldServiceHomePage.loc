@@ -1,0 +1,6 @@
+homepage.button.allow = {\"locator\":\"xpath=//XCUIElementTypeButton[@name='Allow']\",\"desc\":\"Allow button locator\"}
+homepage.label.maincomponent = {\"locator\":\"xpath=//XCUIElementTypeCell\",\"desc\":\"main comp loc\"}
+homepage.link.itemtitle = {\"locator\":\"xpath=//XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText[1]\",\"desc\":\"item title locator\"}
+homepage.link.itemtype = {\"locator\":\"xpath=//XCUIElementTypeStaticText[2]\",\"desc\":\"item type locator\"}
+homepage.link.miles = {\"locator\":\"xpath=//XCUIElementTypeStaticText[3]\",\"desc\":\"miles loc\"}
+homepage.link.map = {\"locator\":\"xpath=//XCUIElementTypeMap\",\"desc\":\"map loc\"}

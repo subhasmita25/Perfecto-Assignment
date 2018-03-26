@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When user is already loggedin logout first</div><div  class="teststep"><span class="teststep-label">T </span>And login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>When user clicks on allow pop up</div><div  class="teststep"><span class="teststep-label">T </span>Then user verifies the home page</div><div  class="teststep"><span class="teststep-label">T </span>And user has to verify the map in home page</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify the list of items in home page</div><div  class="teststep"><span class="teststep-label">T </span>When user selects the '0' item in the list</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify that respective page in the item details page</div><div  class="teststep"><span class="teststep-label">T </span>When user is in item details page he has to go back to logout</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Perfecto" duration-ms="2781" started-at="2018-03-16T07:09:37Z" finished-at="2018-03-16T07:09:40Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="SampleTest" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.suite1.bdd.SampleTest()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="SampleTest" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="android  Test" duration-ms="2781" started-at="2018-03-16T07:09:37Z" finished-at="2018-03-16T07:09:40Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="setupSuit" is-config="true" duration-ms="15" started-at="2018-03-16T12:39:37Z" finished-at="2018-03-16T12:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="setupTest" is-config="true" duration-ms="16" started-at="2018-03-16T12:39:37Z" finished-at="2018-03-16T12:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="SKIP" signature="SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="SampleTest" duration-ms="2102" started-at="2018-03-16T12:39:37Z" description="First Test Scenario" finished-at="2018-03-16T12:39:39Z">
+          <exception class="com.qmetry.qaf.automation.core.AutomationError">
+            <message>
+              <![CDATA[Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at .Given user launches the Fieldservice app(scenarios/suite1.bdd:6)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:265)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)
+	at com.perfectofieldserviceassignment.pages.FieldserviceloginTestPage.<init>(FieldserviceloginTestPage.java:16)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)
+	at com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.core.AutomationError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When user is already loggedin logout first</div><div  class="teststep"><span class="teststep-label">T </span>And login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>When user clicks on allow pop up</div><div  class="teststep"><span class="teststep-label">T </span>Then user verifies the home page</div><div  class="teststep"><span class="teststep-label">T </span>And user has to verify the map in home page</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:37Z" finished-at="2018-03-16T12:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:37Z" finished-at="2018-03-16T12:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:39Z" finished-at="2018-03-16T12:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SKIP method=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When user is already loggedin logout first</div><div  class="teststep"><span class="teststep-label">T </span>And login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>When user clicks on allow pop up</div><div  class="teststep"><span class="teststep-label">T </span>Then user verifies the home page</div><div  class="teststep"><span class="teststep-label">T </span>And user has to verify the map in home page</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:39Z" finished-at="2018-03-16T12:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="15" started-at="2018-03-16T12:39:39Z" finished-at="2018-03-16T12:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="SampleTest()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="SampleTest" duration-ms="600" started-at="2018-03-16T12:39:39Z" description="Second Test Scenario" finished-at="2018-03-16T12:39:40Z">
+          <exception class="com.qmetry.qaf.automation.core.AutomationError">
+            <message>
+              <![CDATA[Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at .Given user launches the Fieldservice app(scenarios/suite1.bdd:19)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:265)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)
+	at com.perfectofieldserviceassignment.pages.FieldserviceloginTestPage.<init>(FieldserviceloginTestPage.java:16)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)
+	at com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.core.AutomationError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify the list of items in home page</div><div  class="teststep"><span class="teststep-label">T </span>When user selects the '0' item in the list</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify that respective page in the item details page</div><div  class="teststep"><span class="teststep-label">T </span>When user is in item details page he has to go back to logout</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:39Z" finished-at="2018-03-16T12:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:40Z" finished-at="2018-03-16T12:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:40Z" finished-at="2018-03-16T12:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:40Z" finished-at="2018-03-16T12:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SKIP method=scenarios.suite1.bdd.SampleTest()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify the list of items in home page</div><div  class="teststep"><span class="teststep-label">T </span>When user selects the '0' item in the list</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify that respective page in the item details page</div><div  class="teststep"><span class="teststep-label">T </span>When user is in item details page he has to go back to logout</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="SampleTest" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-03-16T12:39:40Z" finished-at="2018-03-16T12:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7880cdf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- android  Test -->
+  </suite> <!-- Perfecto -->
+</testng-results>

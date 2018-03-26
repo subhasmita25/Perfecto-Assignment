@@ -1,0 +1,27 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"First Test Scenario","groups":["SMOKE"]}
+	
+	Given user launches the Fieldservice app
+	When user is already loggedin logout first
+	And login again with valid username 'test@test.com' and password 'test'	
+	When user clicks on allow pop up
+	Then user verifies the home page
+	And user has to verify the map in home page
+	And user should logout from the application
+	
+END
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Second Test Scenario","groups":["SMOKE"]}
+	
+	Given user launches the Fieldservice app
+	When login again with valid username 'test@test.com' and password 'test'	
+	Then user has to verify the list of items in home page
+	When user selects the '0' item in the list
+	Then user has to verify that respective page in the item details page
+	When user is in item details page he has to go back to logout
+	And user should logout from the application
+END
+

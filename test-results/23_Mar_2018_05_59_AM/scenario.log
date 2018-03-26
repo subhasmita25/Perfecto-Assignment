@@ -1,0 +1,81 @@
+11:29:31 scenario.file.loc[Ljava.lang.String;@12cdcf4
+11:29:31 loading BDD file: C:\Users\Subhasmita.Rout\QASWorkspace\Automation\PerfectoFieldServiceAssignment\.\scenarios\suite1.bdd
+11:29:31 total test found: 2
+11:29:32 scenario.file.loc[Ljava.lang.String;@29ba4338
+11:29:32 loading BDD file: C:\Users\Subhasmita.Rout\QASWorkspace\Automation\PerfectoFieldServiceAssignment\.\scenarios\suite1.bdd
+11:29:32 total test found: 2
+11:29:32 
+
+Executing scenario: SampleTest - First Test Scenario
+11:29:32 pkg: com.qmetry.qaf.automation.step
+11:29:32 pkg: com.perfectofieldserviceassignment
+11:29:32 Found duplicate step to load [] with [lower] prority then []
+11:29:32 Invoking Teststep: Given user launches the Fieldservice app
+11:30:11 Completed Teststep: Given user launches the Fieldservice app
+11:30:11 Invoking Teststep: When user is already loggedin logout first
+11:30:12 Completed Teststep: When user is already loggedin logout first
+11:30:12 Invoking Teststep: And login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:30:28 Completed Teststep: And login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:30:28 Invoking Teststep: When user clicks on allow pop up
+11:30:33 Completed Teststep: When user clicks on allow pop up
+11:30:33 Invoking Teststep: Then user verifies the home page
+11:30:34 Completed Teststep: Then user verifies the home page
+11:30:34 Invoking Teststep: And user has to verify the map in home page
+11:30:37 Completed Teststep: And user has to verify the map in home page
+11:30:37 Invoking Teststep: And user should logout from the application
+11:30:38 Completed Teststep: And user should logout from the application
+11:30:38 Competed scenario: SampleTest with status SUCESS
+11:30:39 
+
+Executing scenario: SampleTest - Second Test Scenario
+11:30:39 Invoking Teststep: Given user launches the Fieldservice app
+11:30:44 Completed Teststep: Given user launches the Fieldservice app
+11:30:44 Invoking Teststep: When login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:31:21 Completed Teststep: When login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:31:21 Invoking Teststep: Then user has to verify the list of items in home page
+11:31:28 Completed Teststep: Then user has to verify the list of items in home page
+11:31:28 Invoking Teststep: When user selects the '0' item in the list with arguments: [0]
+11:31:50 Completed Teststep: When user selects the '0' item in the list with arguments: [0]
+11:31:50 Invoking Teststep: Then user has to verify that respective page in the item details page
+11:31:52 Completed Teststep: Then user has to verify that respective page in the item details page
+11:31:52 Invoking Teststep: When user is in item details page he has to go back to logout
+11:31:54 Completed Teststep: When user is in item details page he has to go back to logout
+11:31:54 Invoking Teststep: And user should logout from the application
+11:31:56 Completed Teststep: And user should logout from the application
+11:31:56 Competed scenario: SampleTest with status SUCESS
+11:32:32 
+
+Executing scenario: SampleTest - First Test Scenario
+11:32:32 Invoking Teststep: Given user launches the Fieldservice app
+11:32:47 Completed Teststep: Given user launches the Fieldservice app
+11:32:47 Invoking Teststep: When user is already loggedin logout first
+11:32:48 Completed Teststep: When user is already loggedin logout first
+11:32:48 Invoking Teststep: And login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:33:01 Completed Teststep: And login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:33:01 Invoking Teststep: When user clicks on allow pop up
+11:33:22 Completed Teststep: When user clicks on allow pop up
+11:33:22 Invoking Teststep: Then user verifies the home page
+11:33:22 Completed Teststep: Then user verifies the home page
+11:33:22 Invoking Teststep: And user has to verify the map in home page
+11:33:23 Completed Teststep: And user has to verify the map in home page
+11:33:23 Invoking Teststep: And user should logout from the application
+11:33:24 Completed Teststep: And user should logout from the application
+11:33:24 Competed scenario: SampleTest with status SUCESS
+11:33:24 
+
+Executing scenario: SampleTest - Second Test Scenario
+11:33:24 Invoking Teststep: Given user launches the Fieldservice app
+11:33:26 Completed Teststep: Given user launches the Fieldservice app
+11:33:26 Invoking Teststep: When login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:34:00 Completed Teststep: When login again with valid username 'test@test.com' and password 'test' with arguments: [test@test.com, test]
+11:34:00 Invoking Teststep: Then user has to verify the list of items in home page
+11:34:06 Completed Teststep: Then user has to verify the list of items in home page
+11:34:06 Invoking Teststep: When user selects the '0' item in the list with arguments: [0]
+11:34:14 Completed Teststep: When user selects the '0' item in the list with arguments: [0]
+11:34:14 Invoking Teststep: Then user has to verify that respective page in the item details page
+11:34:18 Completed Teststep: Then user has to verify that respective page in the item details page
+11:34:18 Invoking Teststep: When user is in item details page he has to go back to logout
+11:34:19 Completed Teststep: When user is in item details page he has to go back to logout
+11:34:19 Invoking Teststep: And user should logout from the application
+11:34:22 Completed Teststep: And user should logout from the application
+11:34:22 Competed scenario: SampleTest with status SUCESS

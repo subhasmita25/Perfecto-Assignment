@@ -1,0 +1,386 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "logoutIfLoggedIn",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Logout'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 686
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[test@test.com, test]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"OK\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 567
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "[id: FB4BD477-F51B-41D0-A5B9-26B2767CC7C3]",
+          "subLogs": [],
+          "duration": 1085
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "id: DD25A2ED-2F1B-466E-BAF1-B396081D0B59",
+          "subLogs": [],
+          "duration": 1093
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeTextField",
+            "{\"id\":\"DD25A2ED-2F1B-466E-BAF1-B396081D0B59\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 953
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "id: 5C8BD691-7E0C-4BAC-817D-D01763D7CDA3",
+          "subLogs": [],
+          "duration": 1365
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeTextField",
+            "{\"id\":\"5C8BD691-7E0C-4BAC-817D-D01763D7CDA3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 550
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "id: 037BD9D3-5473-4EBD-B629-0BBB5E173AF2",
+          "subLogs": [],
+          "duration": 854
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeTextField",
+            "{\"id\":\"037BD9D3-5473-4EBD-B629-0BBB5E173AF2\",\"value\":[\"test@test.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 874
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSecureTextField, using=xpath}"
+          ],
+          "result": "id: 9F6A783D-B034-42CA-9E65-D840D97D6BF1",
+          "subLogs": [],
+          "duration": 1275
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSecureTextField",
+            "{\"id\":\"9F6A783D-B034-42CA-9E65-D840D97D6BF1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 863
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSecureTextField, using=xpath}"
+          ],
+          "result": "id: 1979838F-6612-44AA-8AB4-C0E695DA231B",
+          "subLogs": [],
+          "duration": 1243
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSecureTextField",
+            "{\"id\":\"1979838F-6612-44AA-8AB4-C0E695DA231B\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 579
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSecureTextField, using=xpath}"
+          ],
+          "result": "id: 0A2E2BB2-F018-464A-A707-D6979563D0EA",
+          "subLogs": [],
+          "duration": 727
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSecureTextField",
+            "{\"id\":\"0A2E2BB2-F018-464A-A707-D6979563D0EA\",\"value\":[\"test\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 701
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Submit'], using=xpath}"
+          ],
+          "result": "id: 0FACA793-36F9-48B8-9CB5-4DCA38376981",
+          "subLogs": [],
+          "duration": 1173
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeButton[@name='Submit']",
+            "{\"id\":\"0FACA793-36F9-48B8-9CB5-4DCA38376981\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 779
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "allowPopup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=20000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 682
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Allow'], using=xpath}"
+          ],
+          "result": "[id: E40885DC-837B-47CF-A2C2-EAA371BD6BC7]",
+          "subLogs": [],
+          "duration": 2375
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Allow'], using=xpath}"
+          ],
+          "result": "id: 641BBFA6-47DD-4D57-905A-C73981501D48",
+          "subLogs": [],
+          "duration": 1167
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeButton[@name='Allow']",
+            "{\"id\":\"641BBFA6-47DD-4D57-905A-C73981501D48\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 942
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeStaticText[@name='Jobs'], using=xpath}"
+          ],
+          "result": "[id: CC90CA54-C38F-417E-B37D-DE641AF5CDAF]",
+          "subLogs": [],
+          "duration": 1482
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyMapInHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=20000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 621
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeMap, using=xpath}"
+          ],
+          "result": "id: 12EA29A2-508E-474C-8116-31ED46DD58D1",
+          "subLogs": [],
+          "duration": 1177
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //XCUIElementTypeMap",
+            "{\"id\":\"12EA29A2-508E-474C-8116-31ED46DD58D1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 468
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Logout'], using=xpath}"
+          ],
+          "result": "id: 92AFE12D-3E4B-4119-9CD3-D8988222E58C",
+          "subLogs": [],
+          "duration": 949
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeButton[@name='Logout']",
+            "{\"id\":\"92AFE12D-3E4B-4119-9CD3-D8988222E58C\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 970
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user launches the Fieldservice app",
+      "type": "TestStepPass",
+      "duration": 39233,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user is already loggedin logout first",
+      "type": "TestStepPass",
+      "duration": 686,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And login again with valid username 'test@test.com' and password 'test'",
+      "type": "TestStepPass",
+      "duration": 15799,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected username locator present : Actual username locator present",
+          "type": "Pass",
+          "screenshot": "../img/SampleTest_ku9z29ixqv0930809.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user clicks on allow pop up",
+      "type": "TestStepPass",
+      "duration": 5197,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies the home page",
+      "type": "TestStepPass",
+      "duration": 1482,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user has to verify the map in home page",
+      "type": "TestStepPass",
+      "duration": 2282,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user should logout from the application",
+      "type": "TestStepPass",
+      "duration": 1921,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

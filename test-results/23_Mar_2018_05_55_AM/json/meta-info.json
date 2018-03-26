@@ -1,0 +1,14 @@
+{
+  "name": "Perfecto",
+  "status": "fail",
+  "tests": [
+    "iOSTest",
+    "androidTest"
+  ],
+  "total": 4,
+  "pass": 0,
+  "fail": 4,
+  "skip": 0,
+  "startTime": 1521784525397,
+  "endTime": 1521784811342
+}

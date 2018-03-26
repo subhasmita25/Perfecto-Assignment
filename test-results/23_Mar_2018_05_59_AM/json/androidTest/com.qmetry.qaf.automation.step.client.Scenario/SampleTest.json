@@ -1,0 +1,367 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "logoutIfLoggedIn",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/logout, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 830
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[test@test.com, test]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"OK\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 612
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/email, using=id}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 400
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/email, using=id}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 488
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/email",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 644
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/email, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 732
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/email",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 774
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/email, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 370
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/email",
+            "{\"id\":\"3\",\"value\":[\"test@test.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1418
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/password, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 648
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/password",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 616
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/password, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 606
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/password",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 736
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/password, using=id}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 416
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/password",
+            "{\"id\":\"6\",\"value\":[\"test\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1366
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/email_sign_in_button, using=id}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 554
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/email_sign_in_button",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 564
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "allowPopup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=20000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 226
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.android.packageinstaller:id/permission_allow_button, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 20329
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Jobs'], using=xpath}"
+          ],
+          "result": "[id: 8]",
+          "subLogs": [],
+          "duration": 410
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyMapInHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=20000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 240
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.view.View[@content-desc=\"Google Map\"], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 454
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.view.View[@content-desc=\"Google Map\"]",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 422
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.infostretch.sourceapp:id/logout, using=id}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 409
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.infostretch.sourceapp:id/logout",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 521
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user launches the Fieldservice app",
+      "type": "TestStepPass",
+      "duration": 15071,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user is already loggedin logout first",
+      "type": "TestStepPass",
+      "duration": 833,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And login again with valid username 'test@test.com' and password 'test'",
+      "type": "TestStepPass",
+      "duration": 13553,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected username locator on loginpage present : Actual username locator on loginpage present",
+          "type": "Pass",
+          "screenshot": "../img/SampleTest_d332lwxmta7930813.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user clicks on allow pop up",
+      "type": "TestStepPass",
+      "duration": 20559,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies the home page",
+      "type": "TestStepPass",
+      "duration": 414,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user has to verify the map in home page",
+      "type": "TestStepPass",
+      "duration": 1119,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user should logout from the application",
+      "type": "TestStepPass",
+      "duration": 932,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

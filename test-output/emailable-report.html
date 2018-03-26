@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Perfecto</th></tr><tr><td><a href="#t0">android  Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">2,781</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Perfecto</th></tr></tbody><tbody id="t0"><tr><th colspan="4">android  Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.qmetry.qaf.automation.step.client.Scenario</td><td><a href="#m0">SampleTest</a></td><td rowspan="2">1521184179550</td><td rowspan="2">600</td></tr><tr class="skippedeven"><td><a href="#m1">SampleTest</a></td></tr></tbody></table><h2>android  Test</h2><h3 id="m0">com.qmetry.qaf.automation.step.client.Scenario#SampleTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify the list of items in home page</div><div  class="teststep"><span class="teststep-label">T </span>When user selects the '0' item in the list</div><div  class="teststep"><span class="teststep-label">T </span>Then user has to verify that respective page in the item details page</div><div  class="teststep"><span class="teststep-label">T </span>When user is in item details page he has to go back to logout</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12425&apos;, ip: &apos;10.11.31.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at .Given user launches the Fieldservice app(scenarios/suite1.bdd:19)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:265)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.&lt;init&gt;(AbstractTestPage.java:86)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.&lt;init&gt;(AbstractTestPage.java:93)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.&lt;init&gt;(WebDriverBaseTestPage.java:62)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.&lt;init&gt;(WebDriverBaseTestPage.java:58)
+	at com.perfectofieldserviceassignment.pages.FieldserviceloginTestPage.&lt;init&gt;(FieldserviceloginTestPage.java:16)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)
+	at com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+... Removed 1 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.qmetry.qaf.automation.step.client.Scenario#SampleTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user launches the Fieldservice app</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.reflect.InvocationTargetException
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12425', ip: '10.11.31.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>When user is already loggedin logout first</div><div  class="teststep"><span class="teststep-label">T </span>And login again with valid username 'test@test.com' and password 'test'</div><div  class="teststep"><span class="teststep-label">T </span>When user clicks on allow pop up</div><div  class="teststep"><span class="teststep-label">T </span>Then user verifies the home page</div><div  class="teststep"><span class="teststep-label">T </span>And user has to verify the map in home page</div><div  class="teststep"><span class="teststep-label">T </span>And user should logout from the application</div></div></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12425&apos;, ip: &apos;10.11.31.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at .Given user launches the Fieldservice app(scenarios/suite1.bdd:6)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:265)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.&lt;init&gt;(AbstractTestPage.java:86)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.&lt;init&gt;(AbstractTestPage.java:93)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.&lt;init&gt;(WebDriverBaseTestPage.java:62)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.&lt;init&gt;(WebDriverBaseTestPage.java:58)
+	at com.perfectofieldserviceassignment.pages.FieldserviceloginTestPage.&lt;init&gt;(FieldserviceloginTestPage.java:16)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:311)
+	at com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:190)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+... Removed 1 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

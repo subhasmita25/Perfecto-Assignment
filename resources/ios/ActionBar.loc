@@ -1,0 +1,3 @@
+actionbar.button.logout = {\"locator\":\"xpath=//XCUIElementTypeButton[@name='Logout']\",\"desc\":\"logout loc\"}
+actionbar.button.jobs = {\"locator\":\"xpath=//XCUIElementTypeStaticText[@name='Jobs']\",\"desc\":\"jobs loc\"}
+actionbar.button.back = {\"locator\":\"xpath=(//XCUIElementTypeButton)[1]\",\"desc\":\"back button loc\"}

@@ -1,0 +1,522 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[test@test.com, test]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"OK\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 20801
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "[id: 78E2B0AC-23B4-4585-A82A-8886466B9213]",
+          "subLogs": [],
+          "duration": 1165
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "id: 35F9BBD8-2C83-4C9B-A3AC-8EA4B66BFCE5",
+          "subLogs": [],
+          "duration": 1262
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeTextField",
+            "{\"id\":\"35F9BBD8-2C83-4C9B-A3AC-8EA4B66BFCE5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 858
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "id: EA600844-8EF0-4BD9-9D30-8D4CE8E2574F",
+          "subLogs": [],
+          "duration": 1060
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeTextField",
+            "{\"id\":\"EA600844-8EF0-4BD9-9D30-8D4CE8E2574F\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 1257
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeTextField, using=xpath}"
+          ],
+          "result": "id: 8C221012-C9DE-4E64-97BF-6DC607444FA0",
+          "subLogs": [],
+          "duration": 1052
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeTextField",
+            "{\"id\":\"8C221012-C9DE-4E64-97BF-6DC607444FA0\",\"value\":[\"test@test.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 743
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSecureTextField, using=xpath}"
+          ],
+          "result": "id: 4C0F285C-0A07-4410-88A0-C2D445A33E1A",
+          "subLogs": [],
+          "duration": 1482
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSecureTextField",
+            "{\"id\":\"4C0F285C-0A07-4410-88A0-C2D445A33E1A\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 727
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSecureTextField, using=xpath}"
+          ],
+          "result": "id: 60C7F2E5-6A25-4D02-B303-35C729D1A671",
+          "subLogs": [],
+          "duration": 957
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSecureTextField",
+            "{\"id\":\"60C7F2E5-6A25-4D02-B303-35C729D1A671\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 986
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeSecureTextField, using=xpath}"
+          ],
+          "result": "id: F76B9C15-2C8F-4B59-BEF4-4649BD18FAE2",
+          "subLogs": [],
+          "duration": 839
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeSecureTextField",
+            "{\"id\":\"F76B9C15-2C8F-4B59-BEF4-4649BD18FAE2\",\"value\":[\"test\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 644
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Submit'], using=xpath}"
+          ],
+          "result": "id: 3F53743F-4CE1-4F6C-B3C7-DBC0C76F1829",
+          "subLogs": [],
+          "duration": 1284
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeButton[@name='Submit']",
+            "{\"id\":\"3F53743F-4CE1-4F6C-B3C7-DBC0C76F1829\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 864
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyItemList",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=20000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 668
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeCell, using=xpath}"
+          ],
+          "result": "[id: 9145C831-0345-4CB4-A124-20E2939592E2, id: 82A6A848-46AB-4B96-A89E-89B425A3E254, id: E15588EF-E7A0-4745-BD3A-4DF5290EB02F, id: 50F5754D-460D-4549-9E03-A2646FC16EA1, id: B5162656-92DD-4302-A204-05DC37DEE656]",
+          "subLogs": [],
+          "duration": 3795
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectItem",
+      "args": [
+        "[0]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeCell, using=xpath}"
+          ],
+          "result": "[id: 1B685952-CEEB-425F-87A6-92438512FC7A, id: FAE356DB-6E21-490B-A6AF-688D09C87492, id: 8E3D20D0-7799-497D-A4BC-8AF8438BFCCD, id: 17279745-2DE8-4D1C-8806-3A2B93501A00, id: 7D2FBF81-EED0-40E7-816B-A28F15E5E00C]",
+          "subLogs": [],
+          "duration": 3000
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeCell",
+            "{\"using\":\"xpath\",\"id\":\"1B685952-CEEB-425F-87A6-92438512FC7A\",\"value\":\"//XCUIElementTypeStaticText[2]\"}"
+          ],
+          "result": "findChildElement:id: BBE2721B-10FC-47FB-AB0D-78F4D874524E",
+          "subLogs": [],
+          "duration": 765
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //XCUIElementTypeStaticText[2]",
+            "{\"id\":\"BBE2721B-10FC-47FB-AB0D-78F4D874524E\"}"
+          ],
+          "result": "getElementText:Laptop RAM Upgrade",
+          "subLogs": [],
+          "duration": 571
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeCell, using=xpath}"
+          ],
+          "result": "[id: 0C3A3B1B-B8BF-4449-9107-619B075BB68E, id: 00CEB7DF-F0FA-446D-8CF6-C22BA422C419, id: 61C9C840-9CC7-4D67-A39C-22B52FB2A5B4, id: 77795F46-FC8E-4431-AA47-81892075BEC0, id: C53DD14F-A4BE-4DDA-AA45-56D2EF20888F]",
+          "subLogs": [],
+          "duration": 2984
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeCell",
+            "{\"using\":\"xpath\",\"id\":\"0C3A3B1B-B8BF-4449-9107-619B075BB68E\",\"value\":\"//XCUIElementTypeStaticText[2]\"}"
+          ],
+          "result": "findChildElement:id: B1C291AF-7B08-497F-9C24-81BA917B52F3",
+          "subLogs": [],
+          "duration": 746
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //XCUIElementTypeStaticText[2]",
+            "{\"id\":\"B1C291AF-7B08-497F-9C24-81BA917B52F3\"}"
+          ],
+          "result": "getElementText:Laptop RAM Upgrade",
+          "subLogs": [],
+          "duration": 678
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeCell, using=xpath}"
+          ],
+          "result": "[id: 152DCF6F-3C52-455D-9181-F82D57F9C05A, id: C5F8FC59-63B6-4981-8F9D-99EABC64C340, id: BC0E6EB5-1B5E-432A-8E37-F4E7586C6969, id: 9972A4DD-5DD4-47A9-8308-3A55605D3C7E, id: 4F96BF7A-5C6B-4FC0-BB2E-30B2DB8EB934]",
+          "subLogs": [],
+          "duration": 2968
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeCell",
+            "{\"using\":\"xpath\",\"id\":\"152DCF6F-3C52-455D-9181-F82D57F9C05A\",\"value\":\"//XCUIElementTypeStaticText[3]\"}"
+          ],
+          "result": "findChildElement:id: C1B980B6-A798-4894-9970-EA4611C7D93D",
+          "subLogs": [],
+          "duration": 755
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //XCUIElementTypeStaticText[3]",
+            "{\"id\":\"C1B980B6-A798-4894-9970-EA4611C7D93D\"}"
+          ],
+          "result": "getElementText:7343.32 miles",
+          "subLogs": [],
+          "duration": 480
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeCell, using=xpath}"
+          ],
+          "result": "[id: 54D4F2E4-8391-4ED6-B471-7E976817219F, id: B4CF6E5F-5319-4044-B781-87E45BCD6C5E, id: 79EB31BD-4A87-4C20-BC58-FA41E5760C72, id: 93A1B1AC-0AEB-4BEA-9CD3-ABC57B2224F4, id: 875B52FE-24B6-4EEC-8F1B-F0FCDA7F0C3C]",
+          "subLogs": [],
+          "duration": 2884
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeCell",
+            "{\"using\":\"xpath\",\"id\":\"54D4F2E4-8391-4ED6-B471-7E976817219F\",\"value\":\"//XCUIElementTypeStaticText[3]\"}"
+          ],
+          "result": "findChildElement:id: 731AB1CA-B6D7-4854-88F3-6790DD639F06",
+          "subLogs": [],
+          "duration": 764
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //XCUIElementTypeStaticText[3]",
+            "{\"id\":\"731AB1CA-B6D7-4854-88F3-6790DD639F06\"}"
+          ],
+          "result": "getElementText:7343.32 miles",
+          "subLogs": [],
+          "duration": 670
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//XCUIElementTypeCell, using=xpath}"
+          ],
+          "result": "[id: 57EAEA5B-73B4-44A1-9C94-624C4CBBDAA3, id: 91AC93EC-C110-46E7-B54C-9FFD525F194F, id: 5357E3B7-7123-4B87-A156-13ADAA90F871, id: 7EADD8DD-D229-42B4-A2FC-2DC53D0A21C4, id: 3B97435C-FFC4-46B6-A1B3-8F2C9F5F386E]",
+          "subLogs": [],
+          "duration": 2908
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeCell",
+            "{\"using\":\"xpath\",\"id\":\"57EAEA5B-73B4-44A1-9C94-624C4CBBDAA3\",\"value\":\"//XCUIElementTypeStaticText[2]\"}"
+          ],
+          "result": "findChildElement:id: 5DAFCEE0-1799-4582-9A0D-6F8C421C5662",
+          "subLogs": [],
+          "duration": 844
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeStaticText[2]",
+            "{\"id\":\"5DAFCEE0-1799-4582-9A0D-6F8C421C5662\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 973
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyOnItemDetailsPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeScrollView/XCUIElementTypeStaticText[2], using=xpath}"
+          ],
+          "result": "id: 5CF591A8-C63B-46CF-ADF1-96362FBEFD66",
+          "subLogs": [],
+          "duration": 735
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeStaticText[2]",
+            "{\"id\":\"5CF591A8-C63B-46CF-ADF1-96362FBEFD66\"}"
+          ],
+          "result": "getElementText:Laptop RAM Upgrade",
+          "subLogs": [],
+          "duration": 577
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "goBackToHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//XCUIElementTypeButton)[1], using=xpath}"
+          ],
+          "result": "id: 51A96FFB-2285-4ABA-92A6-13505B00D56E",
+          "subLogs": [],
+          "duration": 1073
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//XCUIElementTypeButton)[1]",
+            "{\"id\":\"51A96FFB-2285-4ABA-92A6-13505B00D56E\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 984
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//XCUIElementTypeButton[@name='Logout'], using=xpath}"
+          ],
+          "result": "id: B3FEE5B0-7B3F-4398-8DB9-133FBBD6BF69",
+          "subLogs": [],
+          "duration": 1068
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //XCUIElementTypeButton[@name='Logout']",
+            "{\"id\":\"B3FEE5B0-7B3F-4398-8DB9-133FBBD6BF69\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 867
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user launches the Fieldservice app",
+      "type": "TestStepPass",
+      "duration": 5580,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When login again with valid username 'test@test.com' and password 'test'",
+      "type": "TestStepPass",
+      "duration": 37321,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected username locator present : Actual username locator present",
+          "type": "Pass",
+          "screenshot": "../img/SampleTest_13ewuul3xwmxp30810.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user has to verify the list of items in home page",
+      "type": "TestStepPass",
+      "duration": 6308,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Item list verification\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;5&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "../img/SampleTest_4mahlj0s5bmc30811.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects the '0' item in the list",
+      "type": "TestStepPass",
+      "duration": 22055,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user has to verify that respective page in the item details page",
+      "type": "TestStepPass",
+      "duration": 2583,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Productdetails Page Validation\nExpected: a string containing \"Laptop RAM Upgrade\"\n     Actual: was \"Laptop RAM Upgrade\"",
+          "type": "Pass",
+          "screenshot": "../img/SampleTest_1gqhack6lvfde30812.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user is in item details page he has to go back to logout",
+      "type": "TestStepPass",
+      "duration": 2059,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user should logout from the application",
+      "type": "TestStepPass",
+      "duration": 1937,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

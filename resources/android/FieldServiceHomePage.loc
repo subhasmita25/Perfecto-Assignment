@@ -1,0 +1,7 @@
+homepage.button.allow = {\"locator\":\"id=com.android.packageinstaller:id/permission_allow_button\",\"desc\":\"allow button pop up locator\"}
+homepage.button.ok = {\"locator\":\"xpath=//android.widget.Button[@text='OK']\",\"desc\":\"ok button pop up locator\"}
+homepage.label.maincomponent = {\"locator\":\"xpath=//android.widget.ListView/android.widget.RelativeLayout\",\"desc\":\"main component locatotor\"}
+homepage.link.itemtitle = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.infostretch.sourceapp:id/locationitem_tv_title']\",\"desc\":\"compnent title locator\"}
+homepage.link.itemtype = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.infostretch.sourceapp:id/locationitem_tv_category']\",\"desc\":\"component type locator\"}
+homepage.link.miles = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.infostretch.sourceapp:id/locationitem_tv_miles']\",\"desc\":\"miles locator\"}
+homepage.link.map = {\"locator\":\"xpath=//android.view.View[@content-desc=\\\"Google Map\\\"]\",\"desc\":\"map locator in home page\"}

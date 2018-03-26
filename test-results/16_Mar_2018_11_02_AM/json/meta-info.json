@@ -1,0 +1,13 @@
+{
+  "name": "PerfectoFieldServiceAssignment.scenarios.suite1.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "startTime": 1521178358123,
+  "endTime": 1521178360855
+}

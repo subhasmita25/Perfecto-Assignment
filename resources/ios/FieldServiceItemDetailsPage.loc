@@ -1,0 +1,3 @@
+itemdetailspage.label.itemtitle = {\"locator\":\"xpath=//XCUIElementTypeScrollView/XCUIElementTypeStaticText[1]\",\"desc\":\"item tile loc on item details page\"}
+itemdetailspage.label.itemcategory = {\"locator\":\"xpath=//XCUIElementTypeScrollView/XCUIElementTypeStaticText[2]\",\"desc\":\"item category loc on item details page\"}
+itemdetailspage.button.back = {\"locator\":\"xpath=(//XCUIElementTypeButton)[1]\",\"desc\":\"back button\"}

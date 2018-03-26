@@ -1,0 +1,53 @@
+{
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.infostretch.sourceapp",
+      "bundleId": "com.infostretch.inhouseapp",
+      "appPath": "PUBLIC:Resigned_FieldService.apk",
+      "deviceName": "FA6BS0304695",
+      "password": "demo123",
+      "autoLaunch": true,
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "platformName": "android",
+      "user": "is_user1@infostretch.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Field Service",
+      "autoAcceptAlerts": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "platform.Name": "android",
+      "resources": "resources/android",
+      "baseurl": "http://",
+      "env.resources": "resources/android"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_151",
+      "os.arch": "amd64",
+      "host": "ICPL12425",
+      "os.name": "Windows 10",
+      "user.name": "Subhasmita.Rout",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1521784268913,
+  "endTime": 1521784269522
+}

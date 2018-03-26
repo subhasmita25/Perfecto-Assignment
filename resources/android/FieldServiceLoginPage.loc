@@ -1,0 +1,3 @@
+loginpage.textbox.username = {\"locator\":\"id=com.infostretch.sourceapp:id/email\",\"desc\":\"username locator on loginpage\"}
+loginpage.textbox.password = {\"locator\":\"id=com.infostretch.sourceapp:id/password\",\"desc\":\"pwd locator on loginpage\"}
+loginpage.button.signin = {\"locator\":\"id=com.infostretch.sourceapp:id/email_sign_in_button\",\"desc\":\"signin locator on loginpage\"}

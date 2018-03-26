@@ -1,0 +1,4 @@
+actionbar.button.logout = {\"locator\":\"id=com.infostretch.sourceapp:id/logout\",\"desc\":\"logout locator in action bar\"}
+actionbar.button.jobs = {\"locator\":\"xpath=//android.widget.TextView[@text='Jobs']\",\"desc\":\"jobs locator in action bar\"}
+actionbar.button.back = {\"locator\":\"xpath=//*[@content-desc=\\\"Navigate up\\\"]\",\"desc\":\"back button locator\"}
+actionbar.button.scan = {\"locator\":\"xpath=//*[@resource-id=\\\"com.infostretch.sourceapp:id/scan\\\"]\",\"desc\":\"scan locator\"}

@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 16 11:05:03 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>158 seconds (158431 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.SampleTest()'><b>SampleTest</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (SampleTest)<br>Test method: First Test Scenario<br/>
+<a href="#Output-373097727" onClick='toggleBox("Output-373097727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-373097727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-373097727">
+You are in home page <br/>
+Map is dispalyed<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches the Fieldservice app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user is already loggedin logout first</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And login again with valid username 'test@test.com' and password 'test'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected username locator present : Actual username locator present <a href="test-results/16_Mar_2018_11_05_AM/img/SampleTest_46v80t4rlgk037208.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on allow pop up</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user has to verify the map in home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user should logout from the application</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.SampleTest()'><b>SampleTest</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (SampleTest)<br>Test method: Second Test Scenario<br/>
+<a href="#Output-2066892165" onClick='toggleBox("Output-2066892165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2066892165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2066892165">
+Laptop RAM Upgrade<br/>
+7343.32 miles<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches the Fieldservice app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login again with valid username 'test@test.com' and password 'test'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected username locator present : Actual username locator present <a href="test-results/16_Mar_2018_11_05_AM/img/SampleTest_1pee7xj14lahy37209.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user has to verify the list of items in home page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Item list verification
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/16_Mar_2018_11_05_AM/img/SampleTest_mfijilrz5odm37210.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '0' item in the list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user has to verify that respective page in the item details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Productdetails Page Validation
+Expected: a string containing "Laptop RAM Upgrade"
+     Actual: was "Laptop RAM Upgrade" <a href="test-results/16_Mar_2018_11_05_AM/img/SampleTest_notpwbgtw7dp37211.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user is in item details page he has to go back to logout</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user should logout from the application</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e9</td></tr>
+</table><p>
+</body>
+</html>

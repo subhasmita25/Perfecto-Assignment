@@ -1,0 +1,85 @@
+{
+  "total": 2,
+  "pass": 0,
+  "fail": 2,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "bundleId": "com.infostretch.inhouseapp",
+      "appPath": "PUBLIC:Resigned_FieldService.ipa",
+      "deviceName": "F39C49EB5D722D6DBD14CC4366FF6E44084EC96D",
+      "password": "demo123",
+      "autoLaunch": true,
+      "driverClass": "io.appium.java_client.ios.IOSDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "platformName": "ios",
+      "user": "is_user1@infostretch.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "FieldService",
+      "autoAcceptAlerts": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246&_timestamp[0]=1521784448356",
+      "simpleIsVisibleCheck": "true",
+      "appPath": "PUBLIC:Resigned_FieldService.ipa",
+      "deviceName": "F39C49EB5D722D6DBD14CC4366FF6E44084EC96D",
+      "platform": "ANY",
+      "password": "",
+      "deviceSessionId": "is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246",
+      "driverClass": "io.appium.java_client.ios.IOSDriver",
+      "automationName": "Appium",
+      "host": "partners.perfectomobile.com",
+      "singleTestReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246&_timestamp[0]=1521784448356",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "platformName": "iOS",
+      "applicationName": "FieldService",
+      "rotatable": "true",
+      "testGridReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246&_timestamp[0]=1521784448356",
+      "entityType": "appium_driver",
+      "xcuitestFindOptimizations": "true",
+      "bundleId": "com.infostretch.inhouseapp",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246",
+      "webdriver.remote.sessionid": "900313c3-549d-4724-8dcc-f1f0655c7ec8",
+      "autoLaunch": "true",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "reportKey": "is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246",
+      "windTunnelReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-03-23_05_54_08_5246&_timestamp[0]=1521784448356",
+      "user": "",
+      "cssSelectorsEnabled": "true",
+      "autoAcceptAlerts": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "platform.Name": "iOS",
+      "resources": "resources/ios",
+      "baseurl": "http://",
+      "env.resources": "resources/ios"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_151",
+      "os.arch": "amd64",
+      "host": "ICPL12425",
+      "os.name": "Windows 10",
+      "user.name": "Subhasmita.Rout",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1521784625740,
+  "endTime": 1521784747773
+}
